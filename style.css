@@ -1,0 +1,186 @@
+#content {
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    margin:auto;
+}
+
+#control {
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin:auto;
+    width:470px;
+    height:50px;
+    background-color:rgba(0,0,0,0.2);
+    transition:0.5s;
+}
+
+#open {
+    position:absolute;
+    width:50px;
+    height:50px;
+    bottom:50px;
+    text-align:center;
+}
+
+#opening {
+    height:80%;   
+}
+
+#close {
+    position:absolute;
+    width:50px;
+    height:50px;
+    bottom:50px;
+    right:0px;
+    text-align:center;
+}
+
+#reset {
+    width:50px;
+    height:50px;
+    position:absolute;
+    margin:auto;
+    right:0px;
+    left:0px; 
+    bottom:50px;
+    text-align:center;
+}
+
+#refresh { 
+    height:80%;
+}
+
+#closing {
+    height:80%; 
+}
+
+#images {
+    position:relative;
+    display:inline-block;
+}
+
+#arrows {
+    position:relative;
+    display:inline-block;
+}
+
+#sizing {
+    position:relative;
+    display:inline-block;
+}
+
+#bgImg {
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    margin:auto;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-image:url(img/img1.jpg);
+    opacity:0.5;  
+}
+
+#imgTop {
+    text-align:center;
+    position:absolute;
+    left:0px;
+    right:0px;
+    top:50px;
+    margin:auto;
+    height:170px;
+    width:auto;
+    transition:0.3s;
+}
+
+#imgLeft {
+    text-align:center;
+    position:absolute;
+    left:50px;
+    top:0px;
+    bottom:0px;
+    margin:auto;
+    height:170px;
+    width:auto;
+    transition:0.3s;
+}
+
+#imgRight {
+    text-align:center;
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    right:50px;
+    margin:auto;
+    height:170px;
+    width:auto;
+    transition:0.3s;
+}
+
+#imgBot {
+    text-align:center;
+    position:absolute;
+    left:0px;
+    right:0px;
+    bottom:120px;
+    margin:auto;
+    height:170px;
+    width:auto;
+    transition:0.3s;
+}
+
+.controlImg {
+    height:50px;
+    width:50px;
+    float:left;
+}
+
+.button {
+    text-align:center;
+    margin-bottom:6px;
+    margin-right:8px;
+    height:40px;
+    width:40px;
+}
+
+#larger {
+    
+}
+
+#smaller {
+    
+}
+
+#img1 {
+    
+}
+
+#img2 {
+    
+}
+
+#img3 {
+    
+}
+
+#left {
+    
+}
+
+#right {
+    
+}
+
+#up {
+    
+}
+
+#down {
+    
+}
